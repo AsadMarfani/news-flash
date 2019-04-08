@@ -6,8 +6,8 @@ export default class Header extends Component {
         return (
             <PageHeader
                 onBack={() => null}
-                title="Title"
-                subTitle="This is a subtitle" />
+                title="News Flash"
+                subTitle="Great minds are always feared by lesser minds." />
         )
     }
 }
