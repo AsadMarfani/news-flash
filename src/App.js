@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import NewsList from './components/NewsList'
+import {BackTop} from 'antd';
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
       <div>
         <Header />
         <NewsList />
+        <BackTop />
       </div>
     );
   }
